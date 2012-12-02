@@ -1,0 +1,20 @@
+create database sim_test;
+grant all  on sim_test.* to sim_test@localhost identified by 'sim_test';
+
+create table sim_data_x
+(
+id int not null,
+pos_x float not null,
+pos_y float not null,
+pos_z float not null,
+spd_x float not null,
+spd_y float not null,
+spd_z float not null,
+identify int not null
+);
+
+create table sim_desc
+(
+id int  primary key auto_increament,
+
+);
